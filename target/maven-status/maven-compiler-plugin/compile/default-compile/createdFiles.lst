@@ -1,3 +1,13 @@
+com\rohit\aigateway\service\AiProviderService.class
 com\rohit\aigateway\AigatewayApplication.class
-com\rohit\aigateway\controller\GatewayController$ChatRequest.class
+com\rohit\aigateway\service\OllamaCloudClientService.class
+com\rohit\aigateway\service\GeminiClientService.class
+com\rohit\aigateway\service\DummyClientService.class
+com\rohit\aigateway\service\GeminiClientService$1.class
 com\rohit\aigateway\controller\GatewayController.class
+com\rohit\aigateway\service\OllamaLocalClientService.class
+com\rohit\aigateway\controller\GatewayController$ChatRequest.class
+com\rohit\aigateway\config\RestTemplateConfig.class
+com\rohit\aigateway\service\OllamaLocalClientService$1.class
+com\rohit\aigateway\service\OllamaCloudClientService$1.class
+com\rohit\aigateway\service\AiRoutingService.class

@@ -6,8 +6,16 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
+import com.rohit.aigateway.service.AiRoutingService;
+
 @RestController
 public class GatewayController {
+
+	private final AiRoutingService aiRoutingService;
+
+	public GatewayController(AiRoutingService aiRoutingService) {
+		this.aiRoutingService = aiRoutingService;
+	}
 
 	@PostMapping("/api/v1/chat")
 	public String chat(@RequestBody ChatRequest request) {
@@ -15,7 +23,7 @@ public class GatewayController {
 		if (prompt == null || prompt.isBlank()) {
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "prompt must not be null or blank");
 		}
-		return "Gateway securely received: " + prompt;
+		return aiRoutingService.routeRequest(prompt);
 	}
 
 	public static class ChatRequest {

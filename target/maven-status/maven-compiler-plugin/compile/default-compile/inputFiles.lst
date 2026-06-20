@@ -1,2 +1,9 @@
 D:\New folder\enterprise-ai-gateway\src\main\java\com\rohit\aigateway\AigatewayApplication.java
+D:\New folder\enterprise-ai-gateway\src\main\java\com\rohit\aigateway\config\RestTemplateConfig.java
 D:\New folder\enterprise-ai-gateway\src\main\java\com\rohit\aigateway\controller\GatewayController.java
+D:\New folder\enterprise-ai-gateway\src\main\java\com\rohit\aigateway\service\AiProviderService.java
+D:\New folder\enterprise-ai-gateway\src\main\java\com\rohit\aigateway\service\AiRoutingService.java
+D:\New folder\enterprise-ai-gateway\src\main\java\com\rohit\aigateway\service\DummyClientService.java
+D:\New folder\enterprise-ai-gateway\src\main\java\com\rohit\aigateway\service\GeminiClientService.java
+D:\New folder\enterprise-ai-gateway\src\main\java\com\rohit\aigateway\service\OllamaCloudClientService.java
+D:\New folder\enterprise-ai-gateway\src\main\java\com\rohit\aigateway\service\OllamaLocalClientService.java

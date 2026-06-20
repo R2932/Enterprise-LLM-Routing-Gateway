@@ -13,4 +13,7 @@ ollama:
   api:
     url: "https://ollama.com/api/generate"
     key: "REPLACE_WITH_OLLAMA_KEY"
+    model: "nemotron-3-super"
+  local:
+    url: "http://localhost:11434/api/generate"
     model: "gemma4"
