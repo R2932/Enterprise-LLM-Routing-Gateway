@@ -1,0 +1,16 @@
+
+
+#```yaml:Public Config Template:src/main/resources/application.yml
+server:
+  port: 8080
+
+gemini:
+  api:
+    key: "REPLACE_WITH_GEMINI_KEY"
+    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+
+ollama:
+  api:
+    url: "https://ollama.com/api/generate"
+    key: "REPLACE_WITH_OLLAMA_KEY"
+    model: "gemma4"
